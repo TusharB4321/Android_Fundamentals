@@ -16,15 +16,16 @@ class IntentPassActivity : AppCompatActivity() {
 
 
         binding.button.setOnClickListener{
-            val name=binding.name.text.toString()
+            val name=binding.name.text.toString().trim()
             val age=binding.age.text.toString().toInt()
-            val country=binding.country.text.toString()
+            val country=binding.country.text.toString().trim()
 
             Intent(this,SecondActivity::class.java).also{
                 it.putExtra("name",name)
                 it.putExtra("age",age)
                 it.putExtra("country",country)
                 startActivity(it)
+                finish()
         }
         }
     }

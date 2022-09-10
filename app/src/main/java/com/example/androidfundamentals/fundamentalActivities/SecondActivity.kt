@@ -2,7 +2,6 @@ package com.example.androidfundamentals.fundamentalActivities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.androidfundamentals.R
 import com.example.androidfundamentals.databinding.ActivitySecondBinding
 
 class SecondActivity : AppCompatActivity() {

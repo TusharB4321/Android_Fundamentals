@@ -14,10 +14,7 @@
         android:theme="@style/Theme.AndroidFundamentals"
         tools:targetApi="31">
         <activity
-            android:name=".fundamentalActivities.SecondActivity"
-            android:exported="false" />
-        <activity
-            android:name=".fundamentalActivities.IntentPassActivity"
+            android:name=".fundamentalActivities.ToolBarMenuActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -26,9 +23,16 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".fundamentalActivities.DialogBoxActivity"
+            android:name=".fundamentalActivities.SecondActivity"
+            android:exported="false" />
+        <activity
+            android:name=".fundamentalActivities.IntentPassActivity"
             android:exported="true">
+
         </activity>
+        <activity
+            android:name=".fundamentalActivities.DialogBoxActivity"
+            android:exported="true" />
         <activity
             android:name=".MainActivity"
             android:exported="true" />
